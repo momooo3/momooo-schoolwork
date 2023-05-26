@@ -111,8 +111,10 @@ span {color: rgb(255, 0, 179);}
     
     
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
+    
 
 }
 
@@ -121,10 +123,14 @@ span {color: rgb(255, 0, 179);}
     height: 30px;
 }
 
-a {font-size: 12px;
+#home {font-size: 18px;
     color: #c4c4c4;
     background-color: black;
+    width: 100px;
+    text-decoration: none;
 }
+span{display: flex;
+flex-direction: row-reverse;}
 
 #kb5 {
     width: 10px;
@@ -158,7 +164,7 @@ a {font-size: 12px;
 
 #kb8 {
     width: 10px;
-    height: 90px;
+    height: 140px;
 }
 
 #b1 {
