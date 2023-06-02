@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "fzxs14";
+    src: url("fzxs14.ttf");
+         
+  }
 
 #body {width: 1460px;
     background: white;
@@ -182,12 +187,35 @@
 
 
 #b1 {
-    transform: translate(0,300px);
+    transform: translate(0px,300px);
 
 }
-#img1-7 {
-    transform: translate(30px,0);
+#di {
+    transform: translate(0px,0px);
 }
+
+
+
+
+
+
+
+
+
+
+
+#hercake {
+    transform: translate(360px,-380px);
+}
+
+#day {
+    transform: translate(690px,-600px);
+}
+#whenan {
+    transform: translate(1100px,-700px);
+}
+
+
 
 
 #ren {
@@ -206,28 +234,5 @@
     to {width: 123;
     height: 93;}
  }
-
-
-
-
-
-
-
-
-#img18 {
-    transform: translate(360px,-380px);
-}
-
-#img19 {
-    transform: translate(690px,-600px);
-}
-#img110 {
-    transform: translate(1100px,-700px);
-}
-
-
-
-
-
 
   

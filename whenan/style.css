@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "fzxs14";
+    src: url("fzxs14.ttf");
+         
+  }
+
 body {width: 1460px;
     background-color: rgb(235, 235, 11);
 }
