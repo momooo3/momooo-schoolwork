@@ -1,7 +1,7 @@
 
-body {width: 1460px;
-    
-}
+#body {width: 1460px;
+    background: white;
+    }
 #aa {
     width: 1400px;
     height: 276px;
@@ -179,12 +179,7 @@ body {width: 1460px;
 }
 
 
-title {
-    font-family: fzxs14;
-    background: rgb(249, 225, 9);
-    font-size: 8px;
-    transform: translate(0,80px);
-}
+
 
 #b1 {
     transform: translate(0,300px);
@@ -193,35 +188,46 @@ title {
 #img1-7 {
     transform: translate(30px,0);
 }
-#img1-3 {
-    transform: translate(30px,-280px);
-}
-#img1-8 {
+
+
+#ren {
+    transform: translate(30px,-240px);
+
+    -webkit-animation: change1 ;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change1 {
+    from {width: 123px;
+        height: 113px;}
+    to {width: 123;
+    height: 93;}
+ }
+
+
+
+
+
+
+
+
+#img18 {
     transform: translate(360px,-380px);
 }
 
-
-
-
-
-
-
-#img1-9 {
-    transform: translate(690px,-646px);
+#img19 {
+    transform: translate(690px,-600px);
 }
-#img1-10 {
-    transform: translate(1100px,-730px);
+#img110 {
+    transform: translate(1100px,-700px);
 }
 
 
-#dd1 {background-color: rgb(255, 255, 255);
-    width: 1460px;
-    height: 748px;
-    transform: translate(-10px,-1064px);
-    position: relative;
-    z-index:-1;
-    transition: all 0.5s;
 
-}
 
-#img1-8:hover~#dd1 {background-color: rgb(37, 224, 20);}
+
+
+  
