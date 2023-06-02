@@ -136,7 +136,7 @@ height: 1000px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: space-around;}
+justify-content: space-between;}
 
 
 .im0 {
@@ -160,105 +160,391 @@ justify-content: space-around;}
 
 #im1 {
    transform: translate(10px,300px);
-}
+   -webkit-animation: changeim1 ;
+   animation-play-state: running;
+   animation-duration: 14s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   
+  }
+  @keyframes changeim1 {
+   from {width: 32.64px;
+       height: 49.12px;}
+   to {transform:scale(3);}
+ }
+
 
 #im2 {
     transform: translate(0px,20px);
- }
+    -webkit-animation: changeim2 ;
+    animation-play-state: running;
+    animation-duration: 18s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes changeim2 {
+    from {width: 32.64px;
+        height: 49.12px;}
+    to {transform:scale(5);}
+  }
 
  #im3 {
     transform: translate(10px,80px);
- }
+    -webkit-animation: changeim1 ;
+    animation-play-state: running;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes changeim1 {
+    from {width: 32.64px;
+        height: 49.12px;}
+    to {transform:scale(3);}
+  }
 
  #im4 {
     transform: translate(-16px,65px);
- }
+    -webkit-animation: changeim2 ;
+    animation-play-state: running;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes changeim2 {
+    from {width: 32.64px;
+        height: 49.12px;}
+    to {transform:scale(5);}
+  }
 
  #im5 {
     transform: translate(0px,25px);
- }
+    -webkit-animation: changeim3 ;
+    animation-play-state: running;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes changeim3 {
+    from {width: 32.64px;
+        height: 49.12px;}
+    to {transform:scale(7);}
+  }
 
  #im6 {
     transform: translate(-20px,-5px);
- }
+    -webkit-animation: changeim1 ;
+    animation-play-state: running;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes changeim1 {
+    from {width: 32.64px;
+        height: 49.12px;}
+    to {transform:scale(3);}
+  }
 
  #im7 {
     transform: translate(-20px,200px);
- }
+    -webkit-animation: changeim2 ;
+    animation-play-state: running;
+    animation-duration: 18s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes changeim2 {
+    from {width: 32.64px;
+        height: 49.12px;}
+    to {transform:scale(5);}
+  }
 
  #im8 {
     transform: translate(-20px,175px);
- }
+    -webkit-animation: changeim1 ;
+    animation-play-state: running;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes changeim1 {
+    from {width: 32.64px;
+        height: 49.12px;}
+    to {transform:scale(3);}
+  }
 
  #im9 {
     transform: translate(-20px,100px);
- }
+    -webkit-animation: changeim2 ;
+    animation-play-state: running;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes changeim2 {
+    from {width: 32.64px;
+        height: 49.12px;}
+    to {transform:scale(5);}
+  }
 
  #im10 {
     transform: translate(0px,120px);
- }
+    -webkit-animation: changeim3 ;
+    animation-play-state: running;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes changeim3 {
+    from {width: 32.64px;
+        height: 49.12px;}
+    to {transform:scale(7);}
+  }
 
  #im11 {
     transform: translate(20px,280px);
- }
+    -webkit-animation: changeim2 ;
+    animation-play-state: running;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes changeim2 {
+    from {width: 32.64px;
+        height: 49.12px;}
+    to {transform:scale(5);}
+  }
 
  #im12 {
     transform: translate(-5px,190px);
- }
+    -webkit-animation: change4 ;
+    animation-play-state: running;
+    animation-duration: 12s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change4 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(4);}
+  }
 
  #im13 {
     transform: translate(0px,40px);
+    -webkit-animation: change5 ;
+    animation-play-state: running;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change5 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(2);}
  }
 
  #im14 {
     transform: translate(-20px,30px);
- }
+    -webkit-animation: change4 ;
+    animation-play-state: running;
+    animation-duration: 12s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change4 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(4);}
+  }
 
  #im15 {
     transform: translate(10px,-10px);
+    -webkit-animation: change6 ;
+    animation-play-state: running;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change6 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(5);}
  }
 
  #im16 {
     transform: translate(0px,0px);
- }
+    -webkit-animation: change5 ;
+    animation-play-state: running;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change5 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(2);}
+  }
 
  #im17 {
     transform: translate(0px,100px);
+    -webkit-animation: change6 ;
+    animation-play-state: running;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change6 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(5);}
  }
 
  #im18 {
     transform: translate(-15px,80px);
- }
-
+    -webkit-animation: change4 ;
+    animation-play-state: running;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change4 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(4);}
+  }
 
  #im19 {
     transform: translate(10px,40px);
+    -webkit-animation: change5 ;
+    animation-play-state: running;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change5 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(2);}
  }
 
  #im20 {
     transform: translate(10px,210px);
+    -webkit-animation: change6 ;
+    animation-play-state: running;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change6 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(5);}
  }
 
  #im21 {
     transform: translate(10px,-10px);
+    -webkit-animation: change6 ;
+    animation-play-state: running;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change6 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(5);}
  }
 
  #im22 {
     transform: translate(0px,140px);
+    -webkit-animation: change5 ;
+    animation-play-state: running;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change5 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(2);}
  }
 
  #im23 {
     transform: translate(-15px,130px);
- }
+    -webkit-animation: change4 ;
+    animation-play-state: running;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change4 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(4);}
+  }
 
  #im24 {
     transform: translate(-5px,20px);
+    -webkit-animation: change5 ;
+    animation-play-state: running;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change5 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(2);}
  }
 
  #im25 {
     transform: translate(-10px,280px);
+    -webkit-animation: change6 ;
+    animation-play-state: running;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change6 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(5);}
  }
 
  #im26 {
     transform: translate(-15px,40px);
- }
+    -webkit-animation: change4 ;
+    animation-play-state: running;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change4 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(4);}
+  }
