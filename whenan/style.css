@@ -146,8 +146,154 @@ body {width: 1460px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-
-
-   
+    justify-content: flex-start;
+    
 }
+
+.kbb1 {
+    width: 10px;
+    height: 10px;
+}
+
+
+#im1 {
+    transform: translate(0px,300px);
+    -webkit-animation: change1 ;
+    animation-play-state: running;
+    animation-duration: 32s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change1 {
+    
+    0%   {width: 11.814px; 
+        height: 16.536px;
+        transform: translate(20px,200px);}
+    25%  {width: 29.6px; 
+        height: 41.34px;
+        transform: translate(30px,100px);}
+    50%  {width: 37.8px; 
+        height: 52.91px;
+        transform: translate(40px,20px);}
+    75%  {width: 47.256px; 
+        height: 66.144px;
+        transform: translate(45px,-20px);}
+    100% {width: 49.6188px; 
+        height: 69.4512px;
+        transform: translate(50px,-40px);}
+  }
+
+  #im2 {
+    transform: translate(0px,300px);
+    -webkit-animation: change5 ;
+    animation-play-state: running;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change5 {
+    
+    0%   {width: 11.814px; 
+        height: 16.536px;
+        transform: translate(10px,200px);}
+    25%  {width: 29.6px; 
+        height: 41.34px;
+        transform: translate(30px,100px);}
+    50%  {width: 37.8px; 
+        height: 52.91px;
+        transform: translate(45px,20px);}
+    75%  {width: 47.256px; 
+        height: 66.144px;
+        transform: translate(50px,-20px);}
+    100% {width: 49.6188px; 
+        height: 69.4512px;
+        transform: translate(55px,-40px);}
+  }
+
+  #im3 {
+    transform: translate(0px,300px);
+    -webkit-animation: change4 ;
+    animation-play-state: running;
+    animation-duration: 44s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change4 {
+    
+    0%   {width: 11.814px; 
+        height: 16.536px;
+        transform: translate(40px,200px);}
+    25%  {width: 29.6px; 
+        height: 41.34px;
+        transform: translate(60px,100px);}
+    50%  {width: 37.8px; 
+        height: 52.91px;
+        transform: translate(80px,20px);}
+    75%  {width: 47.256px; 
+        height: 66.144px;
+        transform: translate(90px,-20px);}
+    100% {width: 49.6188px; 
+        height: 69.4512px;
+        transform: translate(100px,-40px);}
+  }
+
+  #im4 {
+    transform: translate(0px,300px);
+    -webkit-animation: change3 ;
+    animation-play-state: running;
+    animation-duration: 36s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change3 {
+    
+    0%   {width: 11.814px; 
+        height: 16.536px;
+        transform: translate(60px,200px);}
+    25%  {width: 29.6px; 
+        height: 41.34px;
+        transform: translate(110px,100px);}
+    50%  {width: 37.8px; 
+        height: 52.91px;
+        transform: translate(140px,20px);}
+    75%  {width: 47.256px; 
+        height: 66.144px;
+        transform: translate(180px,-20px);}
+    100% {width: 49.6188px; 
+        height: 69.4512px;
+        transform: translate(200px,-40px);}
+  }
+
+  #im5 {
+    transform: translate(0px,300px);
+    -webkit-animation: change2 ;
+    animation-play-state: running;
+    animation-duration: 40s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change2 {
+    
+    0%   {width: 11.814px; 
+        height: 16.536px;
+        transform: translate(30px,200px);}
+    25%  {width: 29.6px; 
+        height: 41.34px;
+        transform: translate(40px,100px);}
+    50%  {width: 37.8px; 
+        height: 52.91px;
+        transform: translate(50px,20px);}
+    75%  {width: 47.256px; 
+        height: 66.144px;
+        transform: translate(55px,-20px);}
+    100% {width: 49.6188px; 
+        height: 69.4512px;
+        transform: translate(60px,-40px);}
+  }
+
+
