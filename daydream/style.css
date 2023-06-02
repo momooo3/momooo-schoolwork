@@ -1,0 +1,177 @@
+body {width: 1460px;
+    background-color: rgb(37, 224, 20);
+}
+
+#aa {
+    width: 1400px;
+    height: 276px;
+    font-family: fzxs14;
+    
+
+    position: relative;
+    top: 20px;
+    left: 30px;
+    right: 30px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#a1 {
+    width: 261.2px;
+    height: 276px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+#a-1-1 {
+    font-size: 18pt;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 95px;
+   
+   
+}
+
+#kb1 {
+    color: #ffffff;
+    height: 30px;
+    width: 30px;
+}
+
+#a-1-2 {
+    font-size: 12pt;
+    color: rgb(255, 255, 255);
+    background: black;
+    width: 105px;
+    
+}
+
+#kb1-1 {
+    height: 191px;
+    width: 10px;
+    
+}
+
+
+
+
+#a2 {
+    width: 783.6px;
+    height: 276px;
+}
+#her {
+    font-size: 54px;
+    transform: translate(280px, -132px);
+}
+
+#a-2-2 {
+    font-size: 8pt;
+    text-align: center;
+    transform: translate(0, -132px);
+    color: rgb(0, 0, 0);
+}
+
+
+
+#a3 {
+    width: 261.2px;
+    height: 276px;
+    
+    text-align: right;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+
+}
+
+
+
+
+#kb4 {
+    width: 10px;
+    height: 30px;
+}
+
+#home {font-size: 12pt;
+    color: #c4c4c4;
+    background-color: black;
+    width: 100px;
+    text-decoration: none;
+    transform: translate(161.2px,0px);
+    
+    
+}
+
+#kb5 {
+    width: 10px;
+    height: 20px;
+}
+
+#gra {font-size: 12pt;
+    color: #ffffff;
+    background-color: black;
+    width: 180px;
+    text-decoration: none;
+    transform: translate(82px,0px);
+}
+
+
+
+#kb6 {
+    width: 10px;
+    height: 162px;
+}
+
+
+#b {width: 1400px;
+height: 1000px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;}
+
+
+.im0 {
+    width: 49.12px;
+    height: 32.64px;
+    transform: translate(30px,100px);
+    -webkit-animation: change1 ;
+    animation-play-state: running;
+    animation-duration: 12s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+   }
+   @keyframes change1 {
+    from {width: 49.12px;
+        height: 32.64px;}
+    to {transform:scale(5);}
+  }
+ 
+
+
+.im1 {
+    height: 49.12px;
+    width: 32.64px;
+}
+.im2 {
+    height: 49.12px;
+    width: 32.64px;
+}
+.im3 {
+    height: 49.12px;
+    width: 32.64px;
+}
+
+.im4 {
+    width: 49.12px;
+    height: 32.64px;
+}
