@@ -188,7 +188,6 @@
 
 #b1 {
     transform: translate(0px,300px);
-
 }
 #di {
     transform: translate(0px,0px);
@@ -220,19 +219,17 @@
 
 #ren {
     transform: translate(30px,-240px);
-
-    -webkit-animation: change1 ;
+    animation: change1;
     animation-play-state: running;
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    
    }
    @keyframes change1 {
     from {width: 123px;
         height: 113px;}
-    to {width: 123;
-    height: 93;}
+    to {width: 123px;
+    height: 93px;}
  }
 
   
