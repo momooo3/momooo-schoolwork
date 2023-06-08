@@ -6,6 +6,9 @@ const body = document.getElementById('body');
 const hercake = document.getElementById('hercake');
 const day = document.getElementById('day');
 const whenan = document.getElementById('whenan');
+const intro1 = document.getElementById('intro1');
+const intro2 = document.getElementById('intro2');
+const intro3 = document.getElementById('intro3');
 
 
 hercake.addEventListener('mouseenter', (e) => {
@@ -44,3 +47,40 @@ day.addEventListener('mouseenter', (e) => {
     
   });
 
+  hercake.addEventListener('mouseenter', (e) => {
+    intro1.style.display = 'block';
+    enterEventCount++;
+    
+  });
+  
+  hercake.addEventListener('mouseleave', (e) => {
+      intro1.style.display = 'none';
+    leaveEventCount++;
+    
+  });
+
+  day.addEventListener('mouseenter', (e) => {
+    intro2.style.display = 'block';
+    enterEventCount++;
+    
+  });
+  
+  day.addEventListener('mouseleave', (e) => {
+      intro2.style.display = 'none';
+    leaveEventCount++;
+    
+  });
+
+  whenan.addEventListener('mouseenter', (e) => {
+    intro3.style.display = 'block';
+    enterEventCount++;
+    
+  });
+  
+  whenan.addEventListener('mouseleave', (e) => {
+      intro3.style.display = 'none';
+    leaveEventCount++;
+    
+  });
+
+  
