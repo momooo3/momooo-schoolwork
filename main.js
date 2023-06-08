@@ -33,7 +33,7 @@ day.addEventListener('mouseenter', (e) => {
   });
 
   whenan.addEventListener('mouseenter', (e) => {
-    body.style.background = 'rgb(235, 235, 11)';
+    body.style.background = 'rgb(244, 244, 20)';
     enterEventCount++;
     
   });

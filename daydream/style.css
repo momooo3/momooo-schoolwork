@@ -144,7 +144,7 @@ body {width: 1460px;
  
 
 
-#im1 {
+#im1 {transform:scale(0.02);
     width: 32.64px;
     height: 49.12px;
     opacity: 1;
@@ -160,24 +160,24 @@ body {width: 1460px;
    
   }
   @keyframes chan1 {
-   from {transform:scale(0.015);
+   from {transform:scale(0.02);
       opacity: 1;
     }
    to {transform:scale(0.09);
-      opacity: 0.7;
+      opacity: 0.85;
     }
  }
 
 
 
-#im2 {transform:scale(0.015);
+#im2 {transform:scale(0.025);
     width: 32.64px;
     height: 49.12px;
     opacity: 0.65;
     display: block;
     position: relative;
-    top: -20px;
-    left: 120px;
+    top: -10px;
+    left: 130px;
     -webkit-animation: chan2 ;
     animation-play-state: running;
     animation-duration: 8s;
@@ -186,10 +186,10 @@ body {width: 1460px;
     
    }
    @keyframes chan2 {
-    from {transform:scale(0.015);
+    from {transform:scale(0.025);
       opacity: 0.65;
      }
-    to {transform:scale(0.05);
+    to {transform:scale(0.07);
       opacity: 1;
      }
  }
@@ -224,7 +224,7 @@ body {width: 1460px;
     opacity: 0.6;
     display: block;
     position: relative;
-    top: -110px;
+    top: -130px;
     left: 180px;
     -webkit-animation: chan4 ;
     animation-play-state: running;
@@ -237,12 +237,12 @@ body {width: 1460px;
     from {transform:scale(0.02);
       opacity: 0.6;
      }
-    to {transform:scale(0.15);
+    to {transform:scale(0.085);
       opacity: 1;
      }
  }
 
- #im5 {transform:scale(0.01);
+ #im5 {transform:scale(0.02);
     width: 32.64px;
     height: 49.12px;
     opacity: 0.7;
@@ -258,7 +258,7 @@ body {width: 1460px;
     
    }
    @keyframes chan5 {
-    from {transform:scale(0.018);
+    from {transform:scale(0.02);
       opacity: 0.7;
      }
     to {transform:scale(0.12);
@@ -285,12 +285,12 @@ body {width: 1460px;
     from {transform:scale(0.02);
       opacity: 0.8;
      }
-    to {transform:scale(0.2);
-      opacity: 0.5;
+    to {transform:scale(0.16);
+      opacity: 0.85;
      }
  }
 
- #im7 {transform:scale(0.015);
+ #im7 {transform:scale(0.02);
     width: 32.64px;
     height: 49.12px;
     opacity: 0.6;
@@ -300,21 +300,21 @@ body {width: 1460px;
     left: 300px;
     -webkit-animation: chan7 ;
     animation-play-state: running;
-    animation-duration: 20s;
+    animation-duration: 12s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan7 {
-    from {transform:scale(0.015);
+    from {transform:scale(0.02);
       opacity: 0.6;
      }
-    to {transform:scale(0.03);
+    to {transform:scale(0.08);
       opacity: 0.8;
      }
  }
 
- #im8 {transform:scale(0.01);
+ #im8 {transform:scale(0.02);
     width: 32.64px;
     height: 49.12px;
     opacity: 0.3;
@@ -324,13 +324,13 @@ body {width: 1460px;
     left: 360px;
     -webkit-animation: chan8 ;
     animation-play-state: running;
-    animation-duration: 12s;
+    animation-duration: 10s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan8 {
-    from {transform:scale(0.01);
+    from {transform:scale(0.02);
       opacity: 0.3;
      }
     to {transform:scale(0.08);
@@ -338,38 +338,38 @@ body {width: 1460px;
      }
  }
 
- #im9 {transform:scale(0.008);
+ #im9 {transform:scale(0.04);
     width: 32.64px;
     height: 49.12px;
     opacity: 1;
     display: block;
     position: relative;
-    top: -10px;
+    top: -40px;
     left: 440px;
     -webkit-animation: chan9 ;
     animation-play-state: running;
-    animation-duration: 6s;
+    animation-duration: 8s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan9 {
-    from {transform:scale(0.008);
+    from {transform:scale(0.04);
       opacity: 1;
      }
-    to {transform:scale(0.03);
-      opacity: 0.3;
+    to {transform:scale(0.08);
+      opacity: 0.8;
      }
  }
 
- #im10 {transform:scale(0.012);
+ #im10 {transform:scale(0.03);
     width: 49.12px;
     height: 32.64px;
     opacity: 0.8;
     display: block;
     position: relative;
     top: -240px;
-    left: 500px;
+    left: 490px;
     -webkit-animation: chan10 ;
     animation-play-state: running;
     animation-duration: 10s;
@@ -378,39 +378,39 @@ body {width: 1460px;
     
    }
    @keyframes chan10 {
-    from {transform:scale(0.012);
+    from {transform:scale(0.03);
       opacity: 0.8;
      }
-    to {transform:scale(0.05);
+    to {transform:scale(0.2);
       opacity: 1;
      }
  }
 
- #im11 {transform:scale(0.005);
+ #im11 {transform:scale(0.04);
     width: 49.12px;
     height: 32.64px;
     opacity: 1;
     display: block;
     position: relative;
-    top: -450px;
-    left: 580px;
+    top: -430px;
+    left: 540px;
     -webkit-animation: chan11 ;
     animation-play-state: running;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan11 {
-    from {transform:scale(0.005);
+    from {transform:scale(0.04);
       opacity: 1;
      }
-    to {transform:scale(0.015);
+    to {transform:scale(0.08);
       opacity: 0.5;
      }
  }
 
- #im12 {transform:scale(0.01);
+ #im12 {transform:scale(0.02);
     width: 49.12px;
     height: 32.64px;
     opacity: 0.7;
@@ -420,45 +420,45 @@ body {width: 1460px;
     left: 620px;
     -webkit-animation: chan12 ;
     animation-play-state: running;
-    animation-duration: 13s;
+    animation-duration: 11s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan12 {
-    from {transform:scale(0.015);
+    from {transform:scale(0.02);
       opacity: 0.7;
      }
-    to {transform:scale(0.06);
+    to {transform:scale(0.1);
       opacity: 1;
      }
  }
 
- #im13 {transform:scale(0.015);
+ #im13 {transform:scale(0.03);
     width: 49.12px;
     height: 32.64px;
     opacity: 1;
     display: block;
     position: relative;
-    top: -440px;
+    top: -380px;
     left: 680px;
     -webkit-animation: chan13 ;
     animation-play-state: running;
-    animation-duration: 16s;
+    animation-duration: 13s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan13 {
-    from {transform:scale(0.015);
+    from {transform:scale(0.03);
       opacity: 1;
      }
-    to {transform:scale(0.08);
-      opacity: 0.3;
+    to {transform:scale(0.16);
+      opacity: 0.45;
      }
  }
 
- #im14 {transform:scale(0.008);
+ #im14 {transform:scale(0.02);
     width: 49.12px;
     height: 32.64px;
     opacity: 0.7;
@@ -468,21 +468,21 @@ body {width: 1460px;
     left: 740px;
     -webkit-animation: chan14 ;
     animation-play-state: running;
-    animation-duration: 12s;
+    animation-duration: 9s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan14 {
-    from {transform:scale(0.008);
+    from {transform:scale(0.02);
       opacity: 0.7;
      }
-    to {transform:scale(0.045);
+    to {transform:scale(0.1);
       opacity: 1;
      }
  }
 
- #im15 {transform:scale(0.01);
+ #im15 {transform:scale(0.05);
     width: 49.12px;
     height: 32.64px;
     opacity: 0.4;
@@ -498,15 +498,15 @@ body {width: 1460px;
     
    }
    @keyframes chan15 {
-    from {transform:scale(0.01);
+    from {transform:scale(0.05);
       opacity: 0.4;
      }
-    to {transform:scale(0.02);
+    to {transform:scale(0.04);
       opacity: 1;
      }
  }
 
- #im16 {transform:scale(0.008);
+ #im16 {transform:scale(0.02);
     width: 49.12px;
     height: 32.64px;
     opacity: 1;
@@ -522,15 +522,15 @@ body {width: 1460px;
     
    }
    @keyframes chan16 {
-    from {transform:scale(0.008);
+    from {transform:scale(0.02);
       opacity: 1;
      }
-    to {transform:scale(0.05);
-      opacity: 0.6;
+    to {transform:scale(0.06);
+      opacity: 0.75;
      }
  }
 
- #im17 {transform:scale(0.01);
+ #im17 {transform:scale(0.06);
     width: 49.12px;
     height: 32.64px;
     opacity: 0.8;
@@ -546,70 +546,70 @@ body {width: 1460px;
     
    }
    @keyframes chan17 {
-    from {transform:scale(0.01);
+    from {transform:scale(0.06);
       opacity: 0.8;
      }
-    to {transform:scale(0.025);
+    to {transform:scale(0.036);
       opacity: 1;
      }
  }
 
- #im18 {transform:scale(0.008);
+ #im18 {transform:scale(0.012);
     width: 49.12px;
     height: 32.64px;
     opacity: 0.7;
     display: block;
     position: relative;
-    top: -580px;
-    left: 940px;
+    top: -600px;
+    left: 946px;
     -webkit-animation: chan18 ;
     animation-play-state: running;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan18 {
-    from {transform:scale(0.008);
+    from {transform:scale(0.012);
       opacity: 0.7;
      }
-    to {transform:scale(0.02);
+    to {transform:scale(0.05);
       opacity: 1;
      }
  }
 
- #im19 {transform:scale(0.015);
+ #im19 {transform:scale(0.03);
     width: 49.12px;
     height: 32.64px;
     opacity: 1;
     display: block;
     position: relative;
     top: -590px;
-    left: 960px;
+    left: 1000px;
     -webkit-animation: chan19 ;
     animation-play-state: running;
-    animation-duration: 12s;
+    animation-duration: 10s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan19 {
-    from {transform:scale(0.015);
+    from {transform:scale(0.03);
       opacity: 1;
      }
-    to {transform:scale(0.04);
+    to {transform:scale(0.05);
       opacity: 0.7;
      }
  }
 
- #im20 {transform:scale(0.005);
+ #im20 {transform:scale(0.02);
     width: 49.12px;
     height: 32.64px;
     opacity: 1;
     display: block;
     position: relative;
     top: -700px;
-    left: 1020px;
+    left: 1050px;
     -webkit-animation: chan20 ;
     animation-play-state: running;
     animation-duration: 8s;
@@ -618,37 +618,37 @@ body {width: 1460px;
     
    }
    @keyframes chan20 {
-    from {transform:scale(0.005);
+    from {transform:scale(0.02);
       opacity: 1;
      }
-    to {transform:scale(0.03);
+    to {transform:scale(0.1);
       opacity: 0.9;
      }
  }
 
- #im21 {transform:scale(0.01);
+ #im21 {transform:scale(0.03);
     width: 49.12px;
     height: 32.64px;
     opacity: 0.5;
     display: block;
     position: relative;
-    top: -500px;
-    left: 1080px;
+    top: -420px;
+    left: 1020px;
     -webkit-animation: chan21 ;
     animation-play-state: running;
-    animation-duration: 13s;
+    animation-duration: 10s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan21 {
-    from {transform:scale(0.01);
+    from {transform:scale(0.03);
       opacity: 0.5;}
-    to {transform:scale(0.05);
+    to {transform:scale(0.08);
       opacity: 0.8;}
  }
 
- #im22 {transform:scale(0.008);
+ #im22 {transform:scale(0.02);
     width: 49.12px;
     height: 32.64px;
     opacity: 0.35;
@@ -658,27 +658,27 @@ body {width: 1460px;
     left: 1100px;
     -webkit-animation: chan22 ;
     animation-play-state: running;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan22 {
-    from {transform:scale(0.008);
+    from {transform:scale(0.02);
       opacity: 0.35;
      }
-    to {transform:scale(0.02);
+    to {transform:scale(0.06);
       opacity: 1;
      }
  }
 
- #im23 {transform:scale(0.005);
+ #im23 {transform:scale(0.03);
     width: 49.12px;
     height: 32.64px;
     opacity: 0.85;
     display: block;
     position: relative;
-    top: -900px;
+    top: -870px;
     left: 1180px;
     -webkit-animation: chan23 ;
     animation-play-state: running;
@@ -688,67 +688,67 @@ body {width: 1460px;
     
    }
    @keyframes chan23 {
-    from {transform:scale(0.015);
+    from {transform:scale(0.03);
       opacity: 0.85;
      }
-    to {transform:scale(0.03);
+    to {transform:scale(0.08);
       opacity: 1;
      }
  }
 
- #im24 {transform:scale(0.01);
+ #im24 {transform:scale(0.03);
     width: 49.12px;
     height: 32.64px;
     opacity: 1;
     display: block;
     position: relative;
     top: -940px;
-    left: 1200px;
+    left: 1220px;
     -webkit-animation: chan24 ;
     animation-play-state: running;
-    animation-duration: 6s;
+    animation-duration: 9s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan24 {
-    from {transform:scale(0.01);
+    from {transform:scale(0.03);
       opacity: 1;
      }
-    to {transform:scale(0.02);
-      opacity: 0.8;
+    to {transform:scale(0.06);
+      opacity: 0.6;
      }
  }
 
- #im25 {transform:scale(0.012);
+ #im25 {transform:scale(0.035);
     width: 49.12px;
     height: 32.64px;
     display: block;
     position: relative;
-    top: -740px;
-    left: 1100px;
+    top: -700px;
+    left: 1080px;
     -webkit-animation: chan25 ;
     animation-play-state: running;
-    animation-duration: 15s;
+    animation-duration: 16s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
    }
    @keyframes chan25 {
-    from {transform:scale(0.012);
+    from {transform:scale(0.035);
      }
-    to {transform:scale(0.04);
+    to {transform:scale(0.12);
      }
  }
 
- #im26 {transform:scale(0.01);
+ #im26 {transform:scale(0.035);
     width: 49.12px;
     height: 32.64px;
     opacity: 0.8;
     display: block;
     position: relative;
     top: -870px;
-    left: 1260px;
+    left: 1280px;
     -webkit-animation: chan26 ;
     animation-play-state: running;
     animation-duration: 8s;
@@ -757,10 +757,10 @@ body {width: 1460px;
     
    }
    @keyframes chan26 {
-    from {transform:scale(0.015);
+    from {transform:scale(0.035);
       opacity: 0.8;
      }
-    to {transform:scale(0.03);
-      opacity: 0.5;
+    to {transform:scale(0.08);
+      opacity: 0.75;
      }
  }

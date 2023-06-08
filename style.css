@@ -127,25 +127,31 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
     justify-content: flex-start;
     
 
 }
+
+
 
 #kb4 {
     width: 10px;
     height: 30px;
 }
 
-#home {font-size: 12pt;
-    color: #c4c4c4;
-    background-color: black;
-    width: 100px;
+#home {
+    
+    font-size: 12pt;
+    color: rgb(114, 114, 114);
     text-decoration: none;
-    transform: translate(161.2px,0);
+    background-color: black;
+    width: 90px;
+    position: relative;
+    transform: translate(126px,0px);
     
-    
-}
+  }
+
 
 
 #kb5 {
@@ -190,7 +196,7 @@
     transform: translate(0px,300px);
 }
 #di {
-    transform: translate(0px,0px);
+    transform: translate(-5px,0px);
 }
 
 
@@ -203,33 +209,79 @@
 
 
 
-#hercake {
-    transform: translate(360px,-380px);
+#hercake {transform:scale(0.6);
+    display: block;
+    position: relative;
+    top: -560px;
+    left: 250px;
+    animation: cher;
+    animation-play-state: running;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+   }
+   @keyframes cher {
+    from {
+        top: -560px;
+        left: 250px;}
+    to {
+        top: -585px;
+        left: 250px;}
+ 
 }
 
-#day {
-    transform: translate(690px,-600px);
+#day {transform:scale(0.55);
+    display: block;
+    position: relative;
+    top: -965px;
+    left: 500px;
+    animation: cday;
+    animation-play-state: running;
+    animation-duration: 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+   }
+   @keyframes cday {
+    from {top: -965px;
+        left: 500px;}
+    to {top: -945px;
+        left: 500px;}
+ 
 }
-#whenan {
-    transform: translate(1100px,-700px);
-}
-
-
-
-
-#ren {
-    transform: translate(30px,-240px);
-    animation: change1;
+#whenan {transform:scale(0.5);
+    display: block;
+    position: relative;
+    top: -1165px;
+    left: 760px;
+    animation: cwh;
     animation-play-state: running;
     animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
    }
-   @keyframes change1 {
-    from {width: 123px;
-        height: 113px;}
-    to {width: 123px;
-    height: 93px;}
+   @keyframes cwh {
+    from {top: -1165px;
+        left: 760px;}
+    to {top: -1175px;
+        left: 760px;}
  }
 
+
+
+
+
+#ren {transform:scale(0.5);
+    display: block;
+    position: relative;
+    top: -340px;
+    left: -300px;
+
+ }
+
+ #intro1 {font-family: fzxs14;
+    font-size: 8pt;
+    color: black;
+    background-color: rgb(244, 244, 20);
+    width: 320px;
+ }
   
