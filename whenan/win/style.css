@@ -6,7 +6,7 @@
 
 body {width: 1460px;
     background-color: rgb(244, 244, 20);
-  
+    overflow: hidden;
 }
 
 #win {
@@ -22,4 +22,13 @@ body {width: 1460px;
     left: 330px;
     top: 200px;
     z-index: -1;
+}
+
+#homepage {
+    font-family: "fzxs14";
+    font-size: 18pt;
+    color: black;
+    position: relative;
+    left: 680px;
+    top: 320px;
 }
