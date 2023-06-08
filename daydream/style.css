@@ -7,6 +7,7 @@
 
 body {width: 1460px;
     background-color: rgb(37, 224, 20);
+    
 }
 
 #aa {
@@ -764,3 +765,17 @@ body {width: 1460px;
       opacity: 0.75;
      }
  }
+
+ #ren {transform:scale(0.5);
+  display: block;
+  position: relative;
+  top: -500px;
+  left: -300px;
+  z-index: -1;
+}
+#di {
+  position: relative;
+  left: -10px;
+  top: -630px;
+  z-index: -2;
+}
