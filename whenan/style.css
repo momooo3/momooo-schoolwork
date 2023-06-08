@@ -6,7 +6,7 @@
 
 body {width: 1460px;
     background-color: rgb(244, 244, 20);
-    overflow: hidden;
+  
 }
 
 #aa {
@@ -317,3 +317,11 @@ body {width: 1460px;
     top: -430px;
     z-index: -2;
   }
+
+  #qizi {transform:scale(0.4);
+  
+
+    display: block;
+    position: relative;
+    top: -843px;
+    left: 840px;}

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "fzxs14";
+    src: url("fzxs14.ttf");
+         
+  }
+
+body {width: 1460px;
+    background-color: rgb(244, 244, 20);
+  
+}
+
+#win {
+    font-family: "fzxs14";
+    font-size: 22pt;
+    position: relative;
+    left: 650px;
+    top: 290px;
+}
+
+#img-1-4 {
+    position: relative;
+    left: 330px;
+    top: 200px;
+    z-index: -1;
+}
