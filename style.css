@@ -282,6 +282,31 @@
     font-size: 8pt;
     color: black;
     background-color: rgb(244, 244, 20);
-    width: 320px;
+    width: 325px;
+    display: block;
+    position: relative;
+    top: -950px;
+    left: 570px;
  }
   
+ #intro2 {font-family: fzxs14;
+    font-size: 8pt;
+    color: black;
+    background-color: rgb(244, 244, 20);
+    width: 376px;
+    display: block;
+    position: relative;
+    top: -1200px;
+    left: 900px;
+ }
+
+ #intro3 {font-family: fzxs14;
+    font-size: 8pt;
+    color: black;
+    background-color: rgb(37, 224, 20);
+    width: 255px;
+    display: block;
+    position: relative;
+    top: -1120px;
+    left: 1175px;
+ }

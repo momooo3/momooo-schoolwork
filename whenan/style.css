@@ -85,7 +85,7 @@ body {width: 1460px;
 #a-2-2 {
     font-size: 8pt;
     text-align: center;
-    transform: translate(0, -132px);
+    transform: translate(0px,-60px);
     color: rgb(0, 0, 0);
 }
 
@@ -185,7 +185,7 @@ body {width: 1460px;
         left: -30px; 
          }
    to{transform:scale(0.4);
-    top: -140px;
+    top: -120px;
     left: 410px; }
     
   }
@@ -213,7 +213,7 @@ body {width: 1460px;
         left: -30px; 
          }
    to{transform:scale(0.3);
-    top: -40px;
+    top: -20px;
     left: 90px; }
      }
   
@@ -241,7 +241,7 @@ body {width: 1460px;
         left: -30px; 
          }
    to{transform:scale(0.3);
-    top: -170px;
+    top: -120px;
     left: 550px; }
   }
 
@@ -268,7 +268,7 @@ body {width: 1460px;
         left: -30px; 
          }
    to{transform:scale(0.3);
-    top: -80px;
+    top: -60px;
     left: 650px; }
     
    }
@@ -297,6 +297,6 @@ body {width: 1460px;
         left: -30px; 
          }
    to{transform:scale(0.16);
-    top: 100px;
+    top: 80px;
     left: 800px; }
   }
