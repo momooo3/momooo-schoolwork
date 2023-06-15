@@ -5,8 +5,11 @@
   }
 body {width: 1460px;
     background-color: rgb(0, 200, 255);
-    
+    height: 1150px;
 }
+
+
+
 
 #aa {
     width: 1400px;
@@ -83,7 +86,7 @@ body {width: 1460px;
 }
 
 #a-2-2 {
-    font-size: 8pt;
+    font-size: 12pt;
     text-align: center;
     transform: translate(0, -132px);
     color: rgb(0, 0, 0);
@@ -148,7 +151,7 @@ body {width: 1460px;
 #b1 {
     width: 1400px;
     height: 500px;
-    transform: translate(30px,0px);
+    transform: translate(30px,20px);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -181,14 +184,14 @@ height: 10px;}
 #ren {transform:scale(0.5);
     display: block;
     position: relative;
-    top: -20px;
+    top: 130px;
     left: -300px;
     z-index: -1;
  }
 #di {
     position: relative;
-    left: -10px;
-    top: -150px;
+    left: -15px;
+    top: 20px;
     z-index: -2;
   }
   #qizi {transform:scale(0.4);
@@ -196,5 +199,5 @@ height: 10px;}
 
     display: block;
     position: relative;
-    top: -572px;
+    top: -400px;
     left: 860px;}

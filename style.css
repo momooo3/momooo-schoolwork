@@ -109,12 +109,12 @@
     transform: translate(56px, -132px);
 }
 #a-2-2 {
-    font-size: 8pt;
+    font-size: 12pt;
     text-align: center;
     transform: translate(0, -132px);
 }
 #warning {
-    font-size: 8pt;
+    font-size: 12pt;
     text-align: center;
     transform: translate(-220px,0);
     color: rgb(255, 0, 179);}
