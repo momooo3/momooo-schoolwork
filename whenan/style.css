@@ -11,7 +11,7 @@
 body {width: 900px;
     height: 1000px;
     background-color: rgb(244, 244, 20);
-  
+    overflow-x: hidden;
 }
 
 #aa {
@@ -318,7 +318,7 @@ body {width: 900px;
   }
   #di {
     position: relative;
-    left: 0px;
+    left: -6px;
     top: -130px;
     z-index: -2;
   }
