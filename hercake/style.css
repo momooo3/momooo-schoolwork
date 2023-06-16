@@ -3,9 +3,10 @@
     src: url("fzxs14.ttf");
          
   }
-body {width: 1460px;
+body {width: 900px;
     background-color: rgb(0, 200, 255);
     height: 1150px;
+    
 }
 
 
@@ -25,6 +26,7 @@ body {width: 1460px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    
 }
 
 #a1 {
@@ -185,14 +187,16 @@ height: 10px;}
     display: block;
     position: relative;
     top: 130px;
-    left: -300px;
+    left: -140px;
     z-index: -1;
+    
  }
 #di {
     position: relative;
-    left: -15px;
+    left: -5px;
     top: 20px;
     z-index: -2;
+    
   }
   #qizi {transform:scale(0.4);
   
@@ -200,4 +204,6 @@ height: 10px;}
     display: block;
     position: relative;
     top: -400px;
-    left: 860px;}
+    left: 1060px;
+    
+}

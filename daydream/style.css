@@ -5,7 +5,7 @@
   }
 
 
-body {width: 1460px;
+body {width: 860px;
   height: 1200px;
     background-color: rgb(37, 224, 20);
     
@@ -15,7 +15,7 @@ body {width: 1460px;
     width: 1400px;
     height: 276px;
     font-family: fzxs14;
-    
+    overflow: hidden;
 
     position: relative;
     top: 20px;
@@ -771,12 +771,12 @@ body {width: 1460px;
   display: block;
   position: relative;
   top: -240px;
-  left: -300px;
+  left: -140px;
   z-index: -1;
 }
 #di {
   position: relative;
-  left: -10px;
+  left: -5px;
   top: -350px;
   z-index: -2;
 }
@@ -787,4 +787,4 @@ body {width: 1460px;
  display: block;
  position: relative;
  top: -770px;
- left: 860px;}
+ left: 1060px;}

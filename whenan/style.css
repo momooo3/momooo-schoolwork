@@ -4,7 +4,11 @@
          
   }
 
-body {width: 1460px;
+
+
+  
+
+body {width: 900px;
     height: 1000px;
     background-color: rgb(244, 244, 20);
   
@@ -308,13 +312,13 @@ body {width: 1460px;
   #ren {transform:scale(0.5);
     display: block;
     position: relative;
-    top: 0px;
-    left: -300px;
+    top: -10px;
+    left: -140px;
     z-index: -1;
   }
   #di {
     position: relative;
-    left: -10px;
+    left: -5px;
     top: -130px;
     z-index: -2;
   }
@@ -325,4 +329,6 @@ body {width: 1460px;
     display: block;
     position: relative;
     top: -543px;
-    left: 840px;}
+    left: 1040px;}
+
+  

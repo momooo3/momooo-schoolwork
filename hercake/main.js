@@ -4,13 +4,13 @@ const ren = document.getElementById('ren');
 const qizi = document.getElementById('qizi');
 
 qizi.addEventListener('mouseenter', (e) => {
-    ren.style.left = '820px';
+    ren.style.left = '960px';
     enterEventCount++;
     
   });
   
   qizi.addEventListener('mouseleave', (e) => {
-      ren.style.left = '-300px';
+      ren.style.left = '-140px';
     leaveEventCount++;
     
   });
