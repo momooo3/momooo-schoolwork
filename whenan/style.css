@@ -318,7 +318,7 @@ body {width: 900px;
   }
   #di {
     position: relative;
-    left: -5px;
+    left: 0px;
     top: -130px;
     z-index: -2;
   }

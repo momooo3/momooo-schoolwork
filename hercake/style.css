@@ -193,7 +193,7 @@ height: 10px;}
  }
 #di {
     position: relative;
-    left: -5px;
+    left: 0px;
     top: 20px;
     z-index: -2;
     
